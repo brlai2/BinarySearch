@@ -79,7 +79,6 @@ public void setup()
   System.out.println("=====================");
   for (int i = 0; i < tests.length; i++)
   {
-
     if (linearSearch(tests[i]) != -1)
       System.out.println("Catalog #"+tests[i]+" has "+linearSearch(tests[i]) + " in stock");
     else
@@ -90,7 +89,6 @@ public void setup()
   System.out.println("=====================");
   for (int i = 0; i < tests.length; i++)
   {
-
     if (recursiveLinearSearch(tests[i],0) != -1)
       System.out.println("Catalog #"+tests[i]+" has "+recursiveLinearSearch(tests[i],0) + " in stock");
     else
@@ -101,7 +99,6 @@ public void setup()
   System.out.println("===================================");
   for (int i = 0; i < tests.length; i++)
   {
-
     if (binarySearch(tests[i]) != -1)
       System.out.println("Catalog #"+tests[i]+" has "+binarySearch(tests[i]) + " in stock");
     else
@@ -112,15 +109,13 @@ public void setup()
   System.out.println("===============================");
   for (int i = 0; i < tests.length; i++)
   {
-
     if (recursiveBinarySearch(tests[i], 0, store.length - 1) != -1)
       System.out.println("Catalog #"+tests[i]+" has "+recursiveBinarySearch(tests[i], 0, store.length - 1) + " in stock");
     else
       System.out.println("Catalog #"+tests[i]+" not found");
   }
 }
-
 public void draw()
 {
-  //empty!
+  //
 }
