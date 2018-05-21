@@ -20,7 +20,7 @@ private Item[] store =
   new Item(18618, 64), 
   new Item(18871, 69), 
   new Item(19967, 45)
-};                             
+}
 public int linearSearch(int catNumToFind)
 {
   //complete this method
